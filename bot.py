@@ -43,7 +43,7 @@ async def background_task():
             else:
                 try:
                     # get 4 last line of the log
-                    list_toa = temp[-6:-2]
+                    list_toa = temp[-6:-1]
                     # make sure the log is not an blank line
                     if list_toa[-1] != last_toa[-1]:
                         for i in range(5):
